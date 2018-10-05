@@ -7,5 +7,14 @@ body{
 }
 
 header{
-    justify-content: center
+    text-align: center;
+}
+
+#chrisPic{
+    height: 200px;
+    widows: 150px;
+    transform: rotate(90deg);
+    border-radius: 55%;
+
+
 }
