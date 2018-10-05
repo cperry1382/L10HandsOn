@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(107, 105, 105);
+}
+
+#myHead{
+    background-color: rgb(172, 119, 23);
+}
+
+header{
+    justify-content: center
+}
