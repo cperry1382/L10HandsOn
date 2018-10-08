@@ -22,4 +22,5 @@ $(document).ready(function(){
     $(".hover").hover(function(){
         $(this).animate({height:'75px', width:'75px'});
     });
+   
 });

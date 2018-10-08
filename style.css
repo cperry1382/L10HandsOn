@@ -4,19 +4,25 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    align-content: center;
+
 }
 body{
     background-color: rgb(107, 105, 105);
     display: flex;
     min-height: 100%;
     flex-direction: column;
+    margin-bottom: 100px;
  
 }
 
 #myHead{
-    background-color: rgb(143, 28, 28);
+    background-color:  rgb(75, 41, 41);
     text-align: center;
     height: 75px;
+    align-content: center;
+    justify-content: center;
+    color:white;
 }
 #chrisPic{
     display: flex;
@@ -26,7 +32,11 @@ body{
     transform: rotate(90deg);
     border-radius: 55%;
     border-style: solid;
+    
+
 }
+
+
 #email{
     height: 34px;
     width: 34px;
@@ -39,8 +49,13 @@ body{
 }
 
 #footer {
-  display: flex;  
-  background: rgb(143, 28, 28);
-  height: 50px;
-  width: 100%;
+    display: flex;  
+    background: rgb(75, 41, 41);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 75px; 
 }  
