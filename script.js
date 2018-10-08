@@ -20,8 +20,6 @@ function addRepo(name){
 
 $(document).ready(function(){
     $(".hover").hover(function(){
-        $(this).css("hieght", "72px");
-    }, function(){
-        $(this).css("width", "72px");
+        $(this).animate({height:'75px', width:'75px'});
     });
 });
