@@ -4,15 +4,12 @@ body{
  
 }
 
-
-
 #myHead{
     background-color: rgb(172, 119, 23);
     text-align: center;
 }
 #chrisPic{
     display: flex;
-    align-items: center;
     height: 200px;
     widows: 150px;
     transform: rotate(90deg);
@@ -20,16 +17,23 @@ body{
     border-style: solid;
     justify-content: center;
 }
-
-
-
-
+#email{
+    height: 34px;
+    width: 34px;
+    display: flex;
+    float: left;
+}
+#faceBook{
+    height: 34px;
+    width: 34px;
+}
 
 #footer {
+  display: flex;  
   background: rgb(143, 28, 28);
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: -99;
-  justify-content: center;
+ 
 }

@@ -8,8 +8,8 @@ newRepo.onreadystatechange = function(){
     }
 };
 
-newRequest.open("GET","https://api.github.com/users/cperry1382/repos", true);
-newRequest.send();
+newRepo.open("GET","https://api.github.com/users/cperry1382/repos", true);
+newRepo.send();
 
 function addRepo(name){
     var node = document.createElement("li");
@@ -17,3 +17,11 @@ function addRepo(name){
     node.appendChild(textNode);
     document.getElementById("gitRepo").appendChild(node);
 }
+
+$(document).ready(function(){
+    $("transHover").hover(function(){
+        $(this).css("hieght", "72px");
+    }, function(){
+        $(this).css("width", "72px");
+    });
+});
