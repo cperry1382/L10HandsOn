@@ -21,9 +21,10 @@ body{
     background-color:  rgb(75, 41, 41);
     text-align: center;
     height: 75px;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
     color:white;
+    font-family: 'Charmonman', cursive;
 }
 #chrisPic{
     display: flex;
