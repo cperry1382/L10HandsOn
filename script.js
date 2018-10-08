@@ -19,7 +19,7 @@ function addRepo(name){
 }
 
 $(document).ready(function(){
-    $("transHover").hover(function(){
+    $(".hover").hover(function(){
         $(this).css("hieght", "72px");
     }, function(){
         $(this).css("width", "72px");

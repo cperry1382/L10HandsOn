@@ -14,15 +14,16 @@ body{
 #myHead{
     background-color: rgb(172, 119, 23);
     text-align: center;
+    height: 75px;
 }
 #chrisPic{
     display: flex;
+    justify-content: center;
     height: 200px;
     widows: 150px;
     transform: rotate(90deg);
     border-radius: 55%;
     border-style: solid;
-    justify-content: center;
 }
 #email{
     height: 34px;
@@ -38,5 +39,7 @@ body{
 #footer {
   display: flex;  
   background: rgb(143, 28, 28);
-  
+  height: 100px;
+  align-content: center;
+  justify-content: center;  
 }
