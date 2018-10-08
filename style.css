@@ -1,20 +1,35 @@
+
 body{
     background-color: rgb(107, 105, 105);
+ 
 }
+
+
 
 #myHead{
     background-color: rgb(172, 119, 23);
-}
-
-header{
     text-align: center;
 }
-
 #chrisPic{
+    display: flex;
+    align-items: center;
     height: 200px;
     widows: 150px;
     transform: rotate(90deg);
     border-radius: 55%;
+    border-style: solid;
+    justify-content: center;
+}
 
 
+
+
+
+#footer {
+  background: rgb(143, 28, 28);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -99;
+  justify-content: center;
 }
