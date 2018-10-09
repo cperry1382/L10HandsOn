@@ -21,6 +21,7 @@ function addRepo(name){
 $(document).ready(function(){
     $(".hover").hover(function(){
         $(this).animate({height:'75px', width:'75px'});
-    });
-   
-});
+    }, 
+    function(){
+        $(this).animate({height:'34px', width: '34px'});
+    })})
